@@ -1,0 +1,72 @@
+    body {
+
+        background: linear-gradient(135deg, #FFF0F5, #FFE4E1);
+    }
+
+    button {
+        padding: 15px;
+        border-radius: 17%;
+
+
+    }
+
+    .container-every {
+        background-color: black;
+        width: 235px;
+        height: 400px;
+        margin-top: 11%;
+        margin-left: 36%;
+    }
+
+
+    .container-calc {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .container-topo {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 15%;
+    }
+
+    .container-divisao {
+        display: flex;
+        justify-content: center;
+        margin-left: 0.5%;
+        gap: 35px
+    }
+
+
+    .container-multiplicacao {
+        display: flex;
+        justify-content: center;
+        margin-left: 0.5%;
+        gap: 35px
+    }
+
+    .container-six {
+        display: flex;
+        justify-content: center;
+        margin-left: 0.5%;
+        gap: 35px;
+    }
+
+
+    .container-two {
+        display: flex;
+        justify-content: center;
+        margin-left: 0.5%;
+        gap: 35px;
+
+    }
+
+    .container-zero {
+        display: flex;
+        justify-content: center;
+        margin-left: 0.5%;
+        gap: 35px;
+
+    }
