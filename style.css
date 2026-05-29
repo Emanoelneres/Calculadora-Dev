@@ -12,10 +12,11 @@
 
     .container-every {
         background-color: black;
-        width: 235px;
-        height: 400px;
-        margin-top: 11%;
-        margin-left: 36%;
+        width: 270px;
+        height: 470px;
+        margin-top: 7%;
+        margin-left: 40%;
+        border-radius: 40px;
     }
 
 
@@ -36,7 +37,8 @@
         display: flex;
         justify-content: center;
         margin-left: 0.5%;
-        gap: 35px
+        gap: 25px;
+        margin-top: 14px;
     }
 
 
@@ -44,29 +46,166 @@
         display: flex;
         justify-content: center;
         margin-left: 0.5%;
-        gap: 35px
+        gap: 25px;
+        margin-top: 14px;
     }
 
     .container-six {
         display: flex;
         justify-content: center;
         margin-left: 0.5%;
-        gap: 35px;
-    }
+        gap: 25px;
+        margin-top: 14px;
 
+    }
 
     .container-two {
         display: flex;
         justify-content: center;
         margin-left: 0.5%;
-        gap: 35px;
-
+        gap: 25px;
+        margin-top: 14px;
     }
 
     .container-zero {
         display: flex;
         justify-content: center;
         margin-left: 0.5%;
-        gap: 35px;
+         gap: 29px;
+        margin-top: 14px;
+       
 
+    }
+
+    #button-ac {
+        padding: 16px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+
+    #button-del {
+        padding: 16px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+
+    #button-percent {
+        padding: 16px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+
+    #button-division {
+        padding: 18px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+
+    }
+
+    #button-seven {
+        padding: 17px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+    #button-eight {
+        padding: 17px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+    #button-multi {
+        padding: 17px;
+        font-size: 19px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+    #button-four {
+        padding: 17px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+    #button-five {
+        padding: 17px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+    #button-six {
+        padding: 18px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+    #button-subtract {
+        padding: 18px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+    #button-one {
+        padding: 18px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+    #button-two {
+        padding: 18px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+    #button-tree {
+        padding: 18px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+
+    #button-more {
+        padding: 18px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+
+    #button-zero {
+        padding: 17px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+    #ponto {
+        padding: 17px;
+        font-size: 20px;
+        border: none;
+        background-color: #ffb3c6;
+    }
+
+    #igual {
+        padding: 17px;
+        font-size: 15px;
+        border: none;
+        background-color: #ffb3c6;
+    
     }
