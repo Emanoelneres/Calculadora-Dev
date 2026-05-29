@@ -1,6 +1,12 @@
-    body {
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
 
-        background: linear-gradient(135deg, #FFF0F5, #FFE4E1);
+
+
+    body {
+        background: #1a0000;
     }
 
     button {
@@ -13,8 +19,8 @@
     .container-every {
         background-color: black;
         width: 270px;
-        height: 470px;
-        margin-top: 7%;
+        height: 500px;
+        margin-top: 5%;
         margin-left: 40%;
         border-radius: 40px;
     }
@@ -24,6 +30,12 @@
         display: flex;
         justify-content: center;
         position: relative;
+        top: 15px;
+    }
+
+    .input-calc {
+        width: 200px;
+        height: 30px;
     }
 
     .container-topo {
@@ -37,7 +49,7 @@
         display: flex;
         justify-content: center;
         margin-left: 0.5%;
-        gap: 25px;
+        gap: 23px;
         margin-top: 14px;
     }
 
@@ -71,9 +83,9 @@
         display: flex;
         justify-content: center;
         margin-left: 0.5%;
-         gap: 29px;
+        gap: 29px;
         margin-top: 14px;
-       
+
 
     }
 
@@ -81,7 +93,7 @@
         padding: 16px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
 
@@ -89,7 +101,7 @@
         padding: 16px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
 
@@ -97,15 +109,15 @@
         padding: 16px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
 
     #button-division {
         padding: 18px;
-        font-size: 15px;
+        font-size: 16px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
 
     }
 
@@ -113,70 +125,70 @@
         padding: 17px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
     #button-eight {
-        padding: 17px;
+        padding: 19px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
     #button-multi {
         padding: 17px;
         font-size: 19px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
     #button-four {
         padding: 17px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
     #button-five {
         padding: 17px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
     #button-six {
         padding: 18px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
     #button-subtract {
         padding: 18px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
     #button-one {
         padding: 18px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
     #button-two {
         padding: 18px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
     #button-tree {
         padding: 18px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
 
@@ -184,7 +196,7 @@
         padding: 18px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
 
@@ -192,20 +204,20 @@
         padding: 17px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
     #ponto {
         padding: 17px;
         font-size: 20px;
         border: none;
-        background-color: #ffb3c6;
+        background-color: #C4C4C4;
     }
 
     #igual {
         padding: 17px;
         font-size: 15px;
         border: none;
-        background-color: #ffb3c6;
-    
+        background-color: #C4C4C4;
+
     }
