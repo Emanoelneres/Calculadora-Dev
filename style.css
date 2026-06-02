@@ -33,9 +33,10 @@
         top: 15px;
     }
 
-    .input-calc {
+    #input-calc {
         width: 200px;
         height: 30px;
+        text-align: center;
     }
 
     .container-topo {
@@ -207,14 +208,14 @@
         background-color: #C4C4C4;
     }
 
-    #ponto {
+    #point{
         padding: 17px;
         font-size: 20px;
         border: none;
         background-color: #C4C4C4;
     }
 
-    #igual {
+    #equal{
         padding: 17px;
         font-size: 15px;
         border: none;

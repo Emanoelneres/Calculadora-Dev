@@ -13,43 +13,44 @@
 <div class="container-every">
 
     <div class="container-calc">
-   <input class="input-calc" type="text"  value="">
+   <input id="input-calc" type="text">
 </div>
 
     <div class="container-topo">
-        <button id="button-ac">C</button>
+        <button  id="button-ac">C</button>
         <button id="button-del">D</button>
         <button id="button-percent">%</button>
     </div>
     <div class="container-divisao">
         <button id="button-division">/</button>
-        <button id="button-seven">7</button>
-        <button id="button-eight">8</button>
+        <button id="button-seven" onclick="insert('7')">7</button>
+        <button id="button-eight" onclick="insert('8')" >8</button>
     </div>
 
     <div class="container-multiplicacao">
         <button id="button-multi">*</button>
-        <button id="button-four">4</button>
-        <button id="button-five">5</button>
+        <button id="button-four" onclick="insert('4')">4</button>
+        <button id="button-five" onclick="insert('5')">5</button>
     </div>
 
     <div class="container-six">
-        <button id="button-six">6</button>
+        <button id="button-six" onclick="insert('6')">6</button>
         <button id="button-subtract">-</button>
-        <button id="button-one">1</button>
+        <button id="button-one" onclick="insert('1')">1</button>
     </div>
 
     <div class="container-two">
-        <button id="button-two">2</button>
-        <button id="button-tree">3</button>
+        <button id="button-two" onclick=" insert('2')">2</button>
+        <button id="button-tree" onclick="insert('3')">3</button>
         <button id="button-more">+</button>
     </div>
     <div class="container-zero">
-        <button id="button-zero">0</button>
-        <button id="ponto">.</button>
-        <button id="igual">=</button>
+        <button id="button-zero" onclick=" insert('0')">0</button>
+        <button id="point">.</button>
+        <button id="equal">=</button>
     </div>
 
+ <script src="./index.js"></script>
     </div>
 </body>
 
