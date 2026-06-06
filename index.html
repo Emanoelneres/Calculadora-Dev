@@ -17,37 +17,38 @@
 </div>
 
     <div class="container-topo">
-        <button  id="button-ac">C</button>
-        <button id="button-del">D</button>
-        <button id="button-percent">%</button>
+        <button id="button-ac" onclick="eraserOne()">C</button>
+        <button id="button-del" onclick="del()">D</button>
+         <button id="button-comma" onclick="insert('9')">9</button>
+
     </div>
     <div class="container-divisao">
-        <button id="button-division">/</button>
+        <button id="button-division" onclick="nowDivision('/')">/</button>
         <button id="button-seven" onclick="insert('7')">7</button>
         <button id="button-eight" onclick="insert('8')" >8</button>
     </div>
 
     <div class="container-multiplicacao">
-        <button id="button-multi">*</button>
+        <button id="button-multi" onclick="nowMulti('*')">*</button>
         <button id="button-four" onclick="insert('4')">4</button>
         <button id="button-five" onclick="insert('5')">5</button>
     </div>
 
     <div class="container-six">
         <button id="button-six" onclick="insert('6')">6</button>
-        <button id="button-subtract">-</button>
+        <button id="button-subtract" onclick="calcSubtratc('-')">-</button>
         <button id="button-one" onclick="insert('1')">1</button>
     </div>
 
     <div class="container-two">
         <button id="button-two" onclick=" insert('2')">2</button>
         <button id="button-tree" onclick="insert('3')">3</button>
-        <button id="button-more">+</button>
+        <button id="button-more" onclick="calcMore('+')">+</button>
     </div>
     <div class="container-zero">
         <button id="button-zero" onclick=" insert('0')">0</button>
-        <button id="point">.</button>
-        <button id="equal">=</button>
+        <button id="point" onclick="insert('.')">.</button>
+        <button id="equal" onclick="resultFinal()">=</button>
     </div>
 
  <script src="./index.js"></script>
