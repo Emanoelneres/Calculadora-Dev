@@ -53,52 +53,16 @@ function calcMore(calculatorMore) {
 function resultFinal() {
     var inputDigited = document.getElementById('input-calc').value;//valor mapeado
 
-    if (inputDigited.includes("+")) {
 
-        var partes = inputDigited.split("+");//aqui ele vai separar os valores a partir do +
+    if (inputDigited) {
 
-        var num1 = Number(partes[0]);//Valore da esquerda convertido para número
-        var num2 = Number(partes[1]);//valor  da direita convertido para numero
-        var num3 = Number(partes[2]);
-        var resultadoCalc = num1 + num2 + num3;//calculando o resultado 
+        document.getElementById('input-calc').value = eval(inputDigited);
 
-        document.getElementById('input-calc').value = resultadoCalc;//resultado final no input
-        ;
     }
 
-    else if (inputDigited.includes("-")) {
+    else {
+      document.getElementById('input-calc').value = "Nada a calcular"
 
-        var partesSubstract = inputDigited.split("-");
-
-        var numberCalcSub1 = Number(partesSubstract[0]);
-        var numberCalcSu2 = Number(partesSubstract[1]);
-        var numberCalcSu3 = Number(partesSubstract[2]);
-        var resultSubtract = numberCalcSub1 - numberCalcSu2 - numberCalcSu3;
-
-        document.getElementById('input-calc').value = resultSubtract;
     }
 
-    else if (inputDigited.includes("*")) {
-
-        var partesMulti = inputDigited.split("*");
-        var numberCalcMulti1 = Number(partesMulti[0]);
-        var numberCalcMulti2 = Number(partesMulti[1]);
-        var numberCalcMulti3 =Number(partesMulti[2]);
-
-        resultMulti = numberCalcMulti1 * numberCalcMulti2 * numberCalcMulti3;
-
-        document.getElementById('input-calc').value = resultMulti;
-    }
-
-    else if (inputDigited.includes("/")) {
-
-        var partesDiv = inputDigited.split("/");
-        var numberCalcDiv1 = Number(partesDiv[0]);
-        var numberCalcDiv2 = Number(partesDiv[1]);
-        var numberCalcDiv3 = Number(partesDiv[2]);
-
-        resultDiv = numberCalcDiv1 / numberCalcDiv2 /numberCalcDiv3;
- 
-        document.getElementById('input-calc').value = resultDiv;
-    }
 }
