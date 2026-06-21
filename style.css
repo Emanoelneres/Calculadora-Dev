@@ -1,37 +1,31 @@
     * {
         margin: 0;
         box-sizing: border-box;
+        padding: 0;
     }
 
-
-
-    body {
+    #background-centry {
         background: #1a0000;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    button {
-        padding: 15px;
-        border-radius: 17%;
 
-
-    }
-
-    .container-every {
+    #container-background {
         background-color: black;
         width: 270px;
         height: 500px;
-        margin-top: 5%;
-        margin-left: 40%;
         border-radius: 40px;
+        margin-top: 5%;
+        margin-left: 7%;
+
     }
 
+    .container-calc {}
 
-    .container-calc {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        top: 15px;
-    }
 
     #input-calc {
         width: 200px;
@@ -40,75 +34,82 @@
         font-size: 25px;
     }
 
-    .container-topo {
+    #container-number {
         display: flex;
         justify-content: center;
-        gap: 24px;
-        margin-top: 15%;
+        align-items: center;
+        position: relative;
+        left: -250px;
+        gap: 10px;
     }
 
-    .container-divisao {
+    #numbers-caracteres {
         display: flex;
-        justify-content: center;
-        margin-left: 0.5%;
-        gap: 24px;
-        margin-top: 14px;
+        flex-direction: column;
+        height: 285px;
+        margin-top: 80px;
     }
 
-
-    .container-multiplicacao {
+    #button-division-five-four {
         display: flex;
-        justify-content: center;
-        margin-left: 0.5%;
-        gap: 25px;
-        margin-top: 14px;
+        flex-direction: column;
+        height: 285px;
+        margin-top: 80px;
     }
 
-    .container-six {
+    #buttons-multi-one-six {
         display: flex;
-        justify-content: center;
-        margin-left: 0.5%;
-        gap: 25px;
-        margin-top: 14px;
-
+        flex-direction: column;
+        height: 300px;
+        margin-top: 95px;
     }
 
-    .container-two {
+    #buttons-substract-one-two-tree {
         display: flex;
-        justify-content: center;
-        margin-left: 0.5%;
-        gap: 25px;
-        margin-top: 14px;
+        flex-direction: column;
     }
 
-    .container-zero {
+    #buttons-more-tree-point-equal {
         display: flex;
-        justify-content: center;
-        margin-left: 0.5%;
-        gap: 29px;
-        margin-top: 14px;
-
-
+        flex-direction: column;
+        height: 300px;
+        margin-top: 93px;
     }
 
     #button-ac {
-        padding: 16px;
+        padding: 20px;
         font-size: 15px;
+        margin-bottom: 10px;
         border: none;
+        border-radius: 15px;
         background-color: #C4C4C4;
     }
-
 
     #button-del {
-        padding: 16px;
+        padding: 20px;
         font-size: 15px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         border: none;
         background-color: #C4C4C4;
     }
 
+    #button-zero {
+        padding: 20px;
+        font-size: 15px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+        background-color: #C4C4C4;
+    }
 
-    #button-comma {
-        padding: 17px;
+    #button-eight {
+        padding: 20px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         font-size: 15px;
         border: none;
         background-color: #C4C4C4;
@@ -116,110 +117,226 @@
 
 
     #button-division {
-        padding: 18px;
-        font-size: 16px;
-        border: none;
-        background-color: #C4C4C4;
-
-    }
-
-    #button-seven {
-        padding: 17px;
+        padding: 20px;
         font-size: 15px;
+        border-radius: 15px;
+        margin-bottom: 20px;
         border: none;
         background-color: #C4C4C4;
-    }
 
-    #button-eight {
-        padding: 17px;
-        font-size: 15px;
-        border: none;
-        background-color: #C4C4C4;
-    }
-
-    #button-multi {
-        padding: 17px;
-        font-size: 19px;
-        border: none;
-        background-color: #C4C4C4;
-    }
-
-    #button-four {
-        padding: 17px;
-        font-size: 15px;
-        border: none;
-        background-color: #C4C4C4;
     }
 
     #button-five {
-        padding: 17px;
+        padding: 20px;
         font-size: 15px;
-        border: none;
-        background-color: #C4C4C4;
-    }
-
-    #button-six {
-        padding: 18px;
-        font-size: 15px;
-        border: none;
-        background-color: #C4C4C4;
-    }
-
-    #button-subtract {
-        padding: 18px;
-        font-size: 15px;
-        border: none;
-        background-color: #C4C4C4;
-    }
-
-    #button-one {
-        padding: 18px;
-        font-size: 15px;
+        border-radius: 15px;
+        margin-bottom: 19px;
         border: none;
         background-color: #C4C4C4;
     }
 
     #button-two {
-        padding: 18px;
+        padding: 20px;
         font-size: 15px;
+        border-radius: 15px;
+        margin-bottom: 10px;
         border: none;
         background-color: #C4C4C4;
     }
 
-    #button-tree {
-        padding: 18px;
+
+    #button-four {
+        padding: 20px;
         font-size: 15px;
         border: none;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #C4C4C4;
+    }
+
+    #button-six {
+        padding: 20px;
+        font-size: 15px;
+        border: none;
+        margin-bottom: 9px;
+        border-radius: 15px;
+        background-color: #C4C4C4;
+    }
+
+    #button-subtract {
+        padding: 20px;
+        font-size: 15px;
+        border: none;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #C4C4C4;
+    }
+
+    #button-one {
+        padding: 20px;
+        font-size: 15px;
+        border: none;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 17px;
+        background-color: #C4C4C4;
+    }
+
+
+    #button-multi {
+        padding: 20px;
+        font-size: 15px;
+        border: none;
+        border-radius: 15px;
         background-color: #C4C4C4;
     }
 
 
     #button-more {
-        padding: 18px;
+        padding: 20px;
         font-size: 15px;
         border: none;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        background-color: #C4C4C4;
+    }
+
+    #button-tree {
+        padding: 20px;
+        font-size: 15px;
+        border: none;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        background-color: #C4C4C4;
+    }
+
+    #point {
+        padding: 20px;
+        font-size: 15px;
+        border: none;
+        border-radius: 15px;
+        margin-bottom: 15px;
         background-color: #C4C4C4;
     }
 
 
-    #button-zero {
-        padding: 17px;
+    #button-seven {
+        padding: 20px;
         font-size: 15px;
         border: none;
+        border-radius: 15px;
+        margin-bottom: 10px;
         background-color: #C4C4C4;
     }
 
-    #point{
-        padding: 17px;
-        font-size: 20px;
+    #equal {
+        flex: 2;
+        font-size: 15px;
         border: none;
+        border-radius: 15px;
+        margin-bottom: 10px;
         background-color: #C4C4C4;
     }
 
-    #equal{
-        padding: 17px;
-        font-size: 15px;
-        border: none;
-        background-color: #C4C4C4;
+    @media(min-width:360px) {
 
+        body {
+            width: 40vw;
+        }
+
+        .container-every {
+            margin-left: 33%;
+
+
+        }
+
+        .container-calc {
+            margin-top: 50%;
+
+        }
+
+    }
+
+    @media(min-width:375px) {
+
+        body {
+            width: 40vw;
+        }
+
+        .container-calc {
+            margin-top: 22%;
+        }
+
+    }
+
+
+    @media(min-width:390px) {
+
+        .container-calc {
+            margin-top: 50%;
+        }
+
+    }
+
+    @media(min-width:412px) {
+
+        .container-calc {
+            margin-top: 60%;
+
+        }
+
+        .container-every {
+
+            margin-left: 45%;
+        }
+
+    }
+
+    @media(min-width:414px) {
+
+        .container-calc {
+            margin-top: 60%;
+
+        }
+
+
+    }
+
+    @media(min-width:430px) {
+
+
+        .container-calc {
+            margin-top: 55%;
+        }
+
+        .container-every {
+            margin-left: 45%;
+
+
+        }
+
+    }
+
+    @media(min-width:768px) {
+
+        .container-every {
+            margin-top: 60%;
+            padding: 250px;
+            margin-left: 50%;
+
+        }
+
+        .container-calc {
+            margin-top: -200px;
+
+        }
+
+
+
+
+
+
+        .container-topo {}
     }
