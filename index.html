@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora-Dev</title>
 </head>
@@ -12,46 +12,48 @@
 
     <div id="background-centry">
 
+
         <div class="container-calc">
             <input id="input-calc" type="text">
         </div>
 
-        <div id="container-background"></div>
 
+        <div id="container-background"></div>
 
         <div id="container-number">
 
-            <div id="numbers-caracteres">
-                <button id="button-ac" onclick="eraserOne()">C</button>
-                <button id="button-del" onclick="del()">D</button>
-                <button id="button-zero" onclick=" insert('0')">0</button>
-                <button id="button-eight" onclick="insert('8')">8</button>
+        <button id="equal" onclick="resultFinal()">=</button>
 
-            </div>
+        <div id="numbers-caracteres">
+            <button id="button-ac" onclick="eraserOne()">C</button>
+            <button id="button-del" onclick="del()">D</button>
+            <button id="button-zero" onclick=" insert('0')">0</button>
+            <button id="button-eight" onclick="insert('8')">8</button>
 
-            <div id="button-division-five-four">
-                 <button id="button-division" onclick="nowDivision('/')">/</button>
-                <button id="button-five" onclick="insert('5')">5</button>
-                <button id="button-two" onclick=" insert('2')">2</button>
-                <button id="button-four" onclick="insert('4')">4</button>
-                <button id="equal" onclick="resultFinal()">=</button>
-
-            </div>
-            <div id="buttons-multi-one-six">
-                <button id="button-six" onclick="insert('6')">6</button>
-                <button id="button-subtract" onclick="calcSubtratc('-')">-</button>
-                <button id="button-one" onclick="insert('1')">1</button>
-                <button id="button-multi" onclick="nowMulti('*')">*</button>
-            </div>
-
-            <div id="buttons-more-tree-point-equal">
-                <button id="button-more" onclick="calcMore('+')">+</button>
-                <button id="button-tree" onclick="insert('3')">3</button>
-                <button id="point" onclick="insert('.')">.</button>
-                <button id="button-seven" onclick="insert('7')">7</button>
-            
-            </div>
         </div>
+
+        <div id="button-division-five-four">
+            <button id="button-division" onclick="nowDivision('/')">/</button>
+            <button id="button-five" onclick="insert('5')">5</button>
+            <button id="button-two" onclick=" insert('2')">2</button>
+            <button id="button-four" onclick="insert('4')">4</button>
+
+        </div>
+        <div id="buttons-multi-one-six">
+            <button id="button-six" onclick="insert('6')">6</button>
+            <button id="button-subtract" onclick="calcSubtratc('-')">-</button>
+            <button id="button-one" onclick="insert('1')">1</button>
+            <button id="button-multi" onclick="nowMulti('*')">*</button>
+        </div>
+
+        <div id="buttons-more-tree-point-equal">
+            <button id="button-more" onclick="calcMore('+')">+</button>
+            <button id="button-tree" onclick="insert('3')">3</button>
+            <button id="button-nine" onclick="insert('9')">9</button>
+            <button id="button-seven" onclick="insert('7')">7</button>
+
+        </div>
+    </div>
     </div>
 
 
