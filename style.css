@@ -20,18 +20,25 @@
         height: 500px;
         border-radius: 40px;
         margin-top: 5%;
-        margin-left: 7%;
+        position: relative;
+        left: 150px;
+        z-index: 1;
 
     }
 
-    .container-calc {}
+    .container-calc {
+        position: relative;
+        top: -150px;
+        left: 380px;
+        z-index: 2;
+    }
 
 
     #input-calc {
         width: 200px;
         height: 30px;
-        text-align: center;
         font-size: 25px;
+        text-align: center;
     }
 
     #container-number {
@@ -39,8 +46,9 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        left: -250px;
+        left: -310px;
         gap: 10px;
+        z-index: 2;
     }
 
     #numbers-caracteres {
@@ -55,25 +63,21 @@
         flex-direction: column;
         height: 285px;
         margin-top: 80px;
+
     }
 
     #buttons-multi-one-six {
         display: flex;
         flex-direction: column;
-        height: 300px;
-        margin-top: 95px;
+        height: 200px;
+
     }
 
-    #buttons-substract-one-two-tree {
-        display: flex;
-        flex-direction: column;
-    }
 
     #buttons-more-tree-point-equal {
         display: flex;
         flex-direction: column;
-        height: 300px;
-        margin-top: 93px;
+        height: 200px;
     }
 
     #button-ac {
@@ -212,7 +216,7 @@
         background-color: #C4C4C4;
     }
 
-    #point {
+    #button-nine {
         padding: 20px;
         font-size: 15px;
         border: none;
@@ -232,111 +236,65 @@
     }
 
     #equal {
-        flex: 2;
         font-size: 15px;
         border: none;
         border-radius: 15px;
         margin-bottom: 10px;
         background-color: #C4C4C4;
-    }
-
-    @media(min-width:360px) {
-
-        body {
-            width: 40vw;
-        }
-
-        .container-every {
-            margin-left: 33%;
-
-
-        }
-
-        .container-calc {
-            margin-top: 50%;
-
-        }
-
-    }
-
-    @media(min-width:375px) {
-
-        body {
-            width: 40vw;
-        }
-
-        .container-calc {
-            margin-top: 22%;
-        }
+        margin-top: 470px;
+        position: relative;
+        left: 220px;
+        width: 200px;
+        height: 80px;
 
     }
 
 
-    @media(min-width:390px) {
 
-        .container-calc {
-            margin-top: 50%;
+
+    @media(max-width: 853px) {
+
+
+
+        #container-background {
+            padding: 135px;
+            height: 500px;
+            border-radius: 40px;
+            overflow-y: auto;
+
+
         }
+    }
+
+
+    @media(max-width: 932px) and (orientation: landscape) {
+
+
+        #background-centry {
+            height: 100%;
+
+
+
+
+        }
+
+        #container-background {
+            padding: 137px;
+        }
+
+
+
 
     }
 
-    @media(min-width:412px) {
+    @media(max-width: 540px) {
 
-        .container-calc {
-            margin-top: 60%;
-
-        }
-
-        .container-every {
-
-            margin-left: 45%;
-        }
-
-    }
-
-    @media(min-width:414px) {
-
-        .container-calc {
-            margin-top: 60%;
-
-        }
-
-
-    }
-
-    @media(min-width:430px) {
-
-
-        .container-calc {
-            margin-top: 55%;
-        }
-
-        .container-every {
-            margin-left: 45%;
+        #container-number {
+            margin-top: -5%;
 
 
         }
 
-    }
-
-    @media(min-width:768px) {
-
-        .container-every {
-            margin-top: 60%;
-            padding: 250px;
-            margin-left: 50%;
-
-        }
-
-        .container-calc {
-            margin-top: -200px;
-
-        }
 
 
-
-
-
-
-        .container-topo {}
     }
