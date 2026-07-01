@@ -267,6 +267,7 @@
     }
 
 
+
     @media(max-width: 932px) and (orientation: landscape) {
 
 
@@ -293,6 +294,21 @@
 
         }
 
+    }
+
+
+    @media(max-width: 430px) {
+
+
+        #container-background {
+            margin-left: -13%;
+        }
+
+        #input-calc {
+            margin-left: -26%;
+
+
+        }
 
 
     }
